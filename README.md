@@ -1,4 +1,6 @@
-Deep Learning – Course Project under Prof. Aditya Jagannatham
+DEEP LEARNING-PROF.ADITYA JAGGANATHAM
+
+
 This repository hosts the complete implementation of my course project conducted under the guidance of Professor Aditya Jagannatham, as part of a comprehensive study on Deep Learning. The project encompasses the application of various deep learning architectures and techniques across a diverse set of benchmark datasets, including:
 
 MNIST – for handwritten digit classification

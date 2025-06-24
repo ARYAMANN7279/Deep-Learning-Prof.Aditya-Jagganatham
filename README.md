@@ -3,7 +3,7 @@ This repository hosts the complete implementation of my course project conducted
 
 MNIST – for handwritten digit classification
 
-IMDB – for sentiment analysis using natural language processing
+IMDB – for sentiment analysis using neural networks
 
 California Housing – for real estate price prediction using regression techniques
 

@@ -28,17 +28,6 @@ Xtest=vectorize(Xtest)
 ypred=model.predict(Xtest)
 ypred=np.round(ypred)
 
-
-
-
-
-
-
-
-
-
-
-
 score = accuracy_score(ypred,ytest)
 print('Accuracy score is',100*score,'%')
 

@@ -84,16 +84,15 @@ model.add(MaxPooling2D((2, 2)))
 model.add(Dropout(0.5))
 
 
-
-
-
-
-
-
-
-
-
-
+model.add(Flatten())
+model.add(Dense(128,activation='relu'))
+model.add(BatchNormalization())
+model.add(Dropout(0.5))
+model.add(Dense(10,activation='softmax'))
+model.compile(optimizer='adam',loss='sparse_categorical_crossentropy',metrics=['accuracy'])
+history=model.fit(Xtrain,ytrain,epochs=100,validation_data=(Xtest,ytest))
+ypred=model.predict(Xtest)
+ypred=np.argmax(ypred,axis=1)
 
 score = accuracy_score(ypred,ytest)
 print('Accuracy score is',100*score,'%')
